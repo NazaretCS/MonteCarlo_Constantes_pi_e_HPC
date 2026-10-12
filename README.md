@@ -33,9 +33,7 @@ Las N simulaciones se reparten en partes iguales entre los P procesos MPI. Cada 
 ## Requisitos
 
 - Compilador de C y OpenMPI (`mpicc` y `mpirun`). En Ubuntu / WSL:
-  ```bash
-  sudo apt install -y build-essential openmpi-bin libopenmpi-dev
-  ```
+
 - Para el notebook: Python 3 con `numpy`, `matplotlib` y Jupyter (o VS Code con la extensión Jupyter).
 
 ## Compilación
@@ -63,12 +61,8 @@ mpirun -n 4 ./montecarlo_hpc 10000000
 
 El programa imprime la cantidad de procesos y de simulaciones, el tiempo de ejecución, y para cada constante el valor obtenido, el valor teórico y los errores absoluto y relativo.
 
-Para usar más procesos que núcleos disponibles se agrega `--oversubscribe`:
 
-```bash
-mpirun --oversubscribe -n 8 ./montecarlo_hpc 10000000
-```
 
 ## Gráficos
 
-Abrir `src/simulaciones_y_graficos.ipynb` y ejecutar todas las celdas (*Run All*). Cada celda genera y muestra uno de los gráficos del informe.
+Abrir `src/simulaciones_y_graficos` y ejecutar todas las celdas (*Run All*). Cada celda genera y muestra uno de los gráficos del informe.
