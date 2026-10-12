@@ -1,10 +1,9 @@
 # Memoria Técnica y Registro Experimental Oficial en Clúster HPC (2026)
 
-**Proyecto:** Estimación de Constantes Matemáticas ($\pi$ y $e$) mediante Monte Carlo y Cómputo Paralelo (MPI)  
-**Institución:** FACET - Universidad Nacional de Tucumán (UNT) / FaMAF - UNC  
-**Autores:** Campos Nazaret, Cano Juan, Diaz Daniela
+**Proyecto:** Estimación de Constantes Matemáticas ($\pi$ y $e$) mediante Monte Carlo y Cómputo Paralelo (MPI)\
+**Institución:** FACET - Universidad Nacional de Tucumán (UNT) / FaMAF - UNC\
+**Autores:** Campos Nazaret, Cano Juan, Diaz Daniela\
 **Año:** 2026
-
 
 ---
 
