@@ -24,7 +24,7 @@ Las N simulaciones se reparten en partes iguales entre los P procesos MPI. Cada 
 ├── docs/
 │   ├── Consigna_Proyecto1.md                   Consigna del proyecto
 │   ├── Resultados_Empiricos_Cluster_2026.md    Registro de las ejecuciones en el clúster FaMAF (UNC)
-│   └── (informe final en PDF)                  Informe del proyecto
+│   └── Informe_MonteCarlo_Pi_e_MPI             Informe del proyecto
 └── src/
     ├── MonteCarlo_Aproximacion_PI_y_E.c        Programa en C con MPI: estimación de π y e
     └── simulaciones_y_graficos.ipynb           Notebook que genera los gráficos del informe
